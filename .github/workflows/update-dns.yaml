@@ -1,0 +1,42 @@
+name: Update DNS records
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'zonefiles/**.zone'
+
+jobs:
+  update-dns:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Install cli53
+        run: |
+          set -e
+          mkdir -p $HOME/bin
+          curl -Lsf -o $HOME/bin/cli53 https://github.com/barnybug/cli53/releases/download/$CLI53_RELEASE/cli53-linux-amd64
+          chmod 755 $HOME/bin/cli53
+        env:
+          CLI53_RELEASE: "0.8.22"
+
+      - name: Update zones
+        run: |
+          set -e
+          (
+            git diff-tree --no-commit-id --diff-filter=ACRM --name-only -r HEAD^ HEAD -- '*.zone' ||
+            git diff-tree --no-commit-id --diff-filter=ACRM --name-only -r --root HEAD -- '*.zone'
+          ) | while read zonefile; do
+            zone=${zonefile##*/}
+            zone=${zone%.zone}
+            $HOME/bin/cli53 import --replace -n --file $zonefile $zone &&
+              $HOME/bin/cli53 import --replace --file $zonefile $zone
+          done
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
