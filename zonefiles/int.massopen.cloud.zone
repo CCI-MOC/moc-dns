@@ -1,13 +1,14 @@
-$ORIGIN             int.massopen.cloud.
-@                   900                  IN  SOA  ns-1864.awsdns-41.co.uk.  awsdns-hostmaster.amazon.com.  1  7200  900  1209600  86400
-@                   172800               IN  NS   ns-1864.awsdns-41.co.uk.
-@                   172800               IN  NS   ns-150.awsdns-18.com.
-@                   172800               IN  NS   ns-1075.awsdns-06.org.
-@                   172800               IN  NS   ns-684.awsdns-21.net.
-*.apps.hypershift1  300                  IN  A    10.30.8.81
-api.hypershift1     300                  IN  A    10.30.8.80
-rgw-j-01            300                  IN  A    192.168.28.198
-rgw-j-02            300                  IN  A    192.168.28.200
-rgw-j-vip           300                  IN  A    192.168.28.199
-*.apps.tajcluster   300                  IN  A    10.30.8.83
-api.tajcluster      300                  IN  A    10.30.8.83
+$ORIGIN              int.massopen.cloud.
+@                    900                  IN  SOA    ns-1864.awsdns-41.co.uk. awsdns-hostmaster.amazon.com.  1  7200  900  1209600  86400
+@                    172800               IN  NS     ns-1864.awsdns-41.co.uk.
+@                    172800               IN  NS     ns-150.awsdns-18.com.
+@                    172800               IN  NS     ns-1075.awsdns-06.org.
+@                    172800               IN  NS     ns-684.awsdns-21.net.
+*.apps.hypershift1   300                  IN  A      10.30.8.81
+api.hypershift1      300                  IN  A      10.30.8.80
+console.hypershift1  300                  IN  CNAME  console-openshift-console.apps.hypershift1
+rgw-j-01             300                  IN  A      192.168.28.198
+rgw-j-02             300                  IN  A      192.168.28.200
+rgw-j-vip            300                  IN  A      192.168.28.199
+*.apps.tajcluster    300                  IN  A      10.30.8.83
+api.tajcluster       300                  IN  A      10.30.8.83
