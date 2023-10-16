@@ -10,5 +10,5 @@ console.hypershift1  300                  IN  CNAME  console-openshift-console.a
 rgw-j-01             300                  IN  A      192.168.28.198
 rgw-j-02             300                  IN  A      192.168.28.200
 rgw-j-vip            300                  IN  A      192.168.28.199
-*.apps.tajcluster    300                  IN  A      10.30.8.83
-api.tajcluster       300                  IN  A      10.30.8.83
+*.apps.tajcluster    300                  IN  A      128.31.20.138
+api.tajcluster       300                  IN  A      128.31.20.138
