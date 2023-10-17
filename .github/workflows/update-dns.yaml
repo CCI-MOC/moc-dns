@@ -8,7 +8,12 @@ on:
       - 'zonefiles/**.zone'
 
 jobs:
+  validate-zonefiles:
+    uses: ./.github/workflows/validate-zonefiles.yaml
+
   update-dns:
+    needs:
+      - validate-zonefiles
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
