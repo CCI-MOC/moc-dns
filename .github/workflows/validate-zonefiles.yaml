@@ -1,0 +1,30 @@
+name: Validate zonefile syntax
+
+on:
+  pull_request:
+    paths:
+      - 'zonefiles/**.zone'
+  workflow_call:
+
+jobs:
+  named-checkzone:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Install bind-utils
+        run: |
+          sudo apt-get update
+          sudo apt-get -y install bind9-utils
+
+      - name: Verify zonefile syntax
+        run: |
+          set -e
+          for zonefile in zonefiles/*.zone; do
+            zonefile=${zonefile##*/}
+            zone=${zonefile%.zone}
+            named-checkzone -D -w zonefiles "$zone" "$zonefile"
+          done
