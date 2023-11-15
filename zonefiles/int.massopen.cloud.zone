@@ -13,7 +13,9 @@ rgw-j-vip            300                  IN  A      192.168.28.199
 *.apps.hypershift1   300                  IN  A      10.30.8.81
 api.hypershift1      300                  IN  A      10.30.8.80
 console.hypershift1  300                  IN  CNAME  console-openshift-console.apps.hypershift1
-api.vcluster1        300                  IN  A      10.30.8.90
+api.vcluster1        300                  IN  A      10.30.8.84
+api.vcluster1        300                  IN  A      10.30.8.85
+api.vcluster1        300                  IN  A      10.30.8.87
 *.apps.vcluster1     300                  IN  A      10.30.8.91
 
 ; @tssala23 openshift testing
