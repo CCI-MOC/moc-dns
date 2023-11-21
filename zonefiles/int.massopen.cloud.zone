@@ -16,6 +16,9 @@ console.hypershift1  300                  IN  CNAME  console-openshift-console.a
 api.vcluster1        300                  IN  A      10.30.8.84
 api.vcluster1        300                  IN  A      10.30.8.85
 api.vcluster1        300                  IN  A      10.30.8.87
+api-int.vcluster1    300                  IN  A      10.30.8.84
+api-int.vcluster1    300                  IN  A      10.30.8.85
+api-int.vcluster1    300                  IN  A      10.30.8.87
 *.apps.vcluster1     300                  IN  A      10.30.8.91
 
 ; @tssala23 openshift testing
