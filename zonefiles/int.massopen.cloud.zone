@@ -21,6 +21,10 @@ api.vcluster1        300                  IN  CNAME  nodes.hypershift1
 api-int.vcluster1    300                  IN  CNAME  nodes.hypershift1
 *.apps.vcluster1     300                  IN  A      10.30.8.91
 
+api.vcluster2        300                  IN  CNAME  nodes.hypershift1
+api-int.vcluster2    300                  IN  CNAME  nodes.hypershift1
+*.apps.vcluster2     300                  IN  A      10.30.8.100
+
 ; @tssala23 openshift testing
 *.apps.tajcluster    300                  IN  A      128.31.20.138
 api.tajcluster       300                  IN  A      128.31.20.138
