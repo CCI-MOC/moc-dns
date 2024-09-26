@@ -24,3 +24,5 @@ api-int.vcluster1    300                  IN  CNAME  nodes.hypershift1
 api.vcluster2        300                  IN  CNAME  nodes.hypershift1
 api-int.vcluster2    300                  IN  CNAME  nodes.hypershift1
 *.apps.vcluster2     300                  IN  A      10.30.8.100
+
+esi-ssl-test         300                  IN  A      129.10.5.160
