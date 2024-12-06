@@ -5,6 +5,7 @@ $ORIGIN svc.massopen.cloud.
 @ 172800  IN  NS  ns-36.awsdns-04.com.
 @ 172800  IN  NS  ns-1326.awsdns-37.org.
 
-api.hypershift2       900   IN  A     128.31.20.43
-*.apps.hypershift2    900   IN  A     128.31.20.156
-console.hypershift2   900   IN  A     128.31.20.156
+hypershift2 86400 IN NS ns-1135.awsdns-13.org.
+hypershift2 86400 IN NS ns-286.awsdns-35.com.
+hypershift2 86400 IN NS ns-1964.awsdns-53.co.uk.
+hypershift2 86400 IN NS ns-588.awsdns-09.net.
