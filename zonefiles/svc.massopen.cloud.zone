@@ -1,0 +1,6 @@
+$ORIGIN svc.massopen.cloud.
+@	900	IN	SOA	ns-553.awsdns-05.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+@	172800	IN	NS	ns-553.awsdns-05.net.
+@	172800	IN	NS	ns-1870.awsdns-41.co.uk.
+@	172800	IN	NS	ns-36.awsdns-04.com.
+@	172800	IN	NS	ns-1326.awsdns-37.org.
