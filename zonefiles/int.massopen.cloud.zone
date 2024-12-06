@@ -8,21 +8,3 @@ $ORIGIN              int.massopen.cloud.
 rgw-j-01             300                  IN  A      192.168.28.198
 rgw-j-02             300                  IN  A      192.168.28.200
 rgw-j-vip            300                  IN  A      192.168.28.199
-
-; @larsks hypershift testing
-*.apps.hypershift1   300                  IN  A      10.30.8.81
-api.hypershift1      300                  IN  A      10.30.8.80
-console.hypershift1  300                  IN  CNAME  console-openshift-console.apps.hypershift1
-nodes.hypershift1    300                  IN  A      10.30.8.84
-nodes.hypershift1    300                  IN  A      10.30.8.85
-nodes.hypershift1    300                  IN  A      10.30.8.87
-
-api.vcluster1        300                  IN  CNAME  nodes.hypershift1
-api-int.vcluster1    300                  IN  CNAME  nodes.hypershift1
-*.apps.vcluster1     300                  IN  A      10.30.8.91
-
-api.vcluster2        300                  IN  CNAME  nodes.hypershift1
-api-int.vcluster2    300                  IN  CNAME  nodes.hypershift1
-*.apps.vcluster2     300                  IN  A      10.30.8.100
-
-esi-ssl-test         300                  IN  A      129.10.5.160
