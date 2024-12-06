@@ -1,0 +1,9 @@
+$ORIGIN hypershift2.svc.massopen.cloud.
+@ 900 IN  SOA ns-1135.awsdns-13.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+@ 172800  IN  NS  ns-1135.awsdns-13.org.
+@ 172800  IN  NS  ns-286.awsdns-35.com.
+@ 172800  IN  NS  ns-1964.awsdns-53.co.uk.
+@ 172800  IN  NS  ns-588.awsdns-09.net.
+
+api     900   IN  A     128.31.20.43
+*.apps  900   IN  A     128.31.20.156
