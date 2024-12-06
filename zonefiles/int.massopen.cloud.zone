@@ -8,3 +8,11 @@ $ORIGIN              int.massopen.cloud.
 rgw-j-01             300                  IN  A      192.168.28.198
 rgw-j-02             300                  IN  A      192.168.28.200
 rgw-j-vip            300                  IN  A      192.168.28.199
+
+api.demo1            300                  IN  A      128.31.20.188
+api-int.demo1        300                  IN  A      128.31.20.188
+*.apps.demo1         300                  IN  A      128.31.20.146
+
+api.london           300                  IN  A      128.31.20.161
+api-int.london       300                  IN  A      128.31.20.161
+*.apps.london        300                  IN  A      128.31.20.191
