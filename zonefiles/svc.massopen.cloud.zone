@@ -5,6 +5,7 @@ $ORIGIN svc.massopen.cloud.
 @ 172800  IN  NS  ns-36.awsdns-04.com.
 @ 172800  IN  NS  ns-1326.awsdns-37.org.
 
-*.apps.osac-integration 900 IN A 128.31.20.127
-api.osac-integration 900 IN A 128.31.20.127
-
+osac-integration 3600 IN NS ns-1002.awsdns-61.net.
+osac-integration 3600 IN NS ns-1698.awsdns-20.co.uk.
+osac-integration 3600 IN NS ns-260.awsdns-32.com.
+osac-integration 3600 IN NS ns-1499.awsdns-59.org.
