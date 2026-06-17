@@ -1,11 +1,9 @@
-$ORIGIN svc.massopen.cloud.
-@ 900 IN  SOA ns-553.awsdns-05.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
-@ 172800  IN  NS  ns-553.awsdns-05.net.
-@ 172800  IN  NS  ns-1870.awsdns-41.co.uk.
-@ 172800  IN  NS  ns-36.awsdns-04.com.
-@ 172800  IN  NS  ns-1326.awsdns-37.org.
-
-osac-integration 3600 IN NS ns-1002.awsdns-61.net.
-osac-integration 3600 IN NS ns-1698.awsdns-20.co.uk.
-osac-integration 3600 IN NS ns-260.awsdns-32.com.
-osac-integration 3600 IN NS ns-1499.awsdns-59.org.
+svc.massopen.cloud.			      900 IN SOA	ns-553.awsdns-05.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+svc.massopen.cloud.			      172800 IN	NS	ns-553.awsdns-05.net.
+svc.massopen.cloud.			      172800 IN	NS	ns-1870.awsdns-41.co.uk.
+svc.massopen.cloud.			      172800 IN	NS	ns-36.awsdns-04.com.
+svc.massopen.cloud.			      172800 IN	NS	ns-1326.awsdns-37.org.
+osac-integration.svc.massopen.cloud.	      3600 IN NS	ns-1002.awsdns-61.net.
+osac-integration.svc.massopen.cloud.	      3600 IN NS	ns-1698.awsdns-20.co.uk.
+osac-integration.svc.massopen.cloud.	      3600 IN NS	ns-260.awsdns-32.com.
+osac-integration.svc.massopen.cloud.	      3600 IN NS	ns-1499.awsdns-59.org.

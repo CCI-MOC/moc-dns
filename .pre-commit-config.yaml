@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: format-zonefile
+        name: format-zonefile
+        language: system
+        files: \.zone$
+        entry: >-
+          bash scripts/format-zonefiles.sh
