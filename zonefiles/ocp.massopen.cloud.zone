@@ -1,0 +1,13 @@
+$ORIGIN ocp.massopen.cloud.
+@	900	IN	SOA	ns-578.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+@	172800	IN	NS	ns-578.awsdns-08.net.
+@	172800	IN	NS	ns-1303.awsdns-34.org.
+@	172800	IN	NS	ns-1833.awsdns-37.co.uk.
+@	172800	IN	NS	ns-505.awsdns-63.com.
+*.apps.infra	300	IN	A	10.11.0.25
+*.apps.prod	300	IN	A	10.12.0.25
+*.apps.staging	300	IN	A	10.13.0.25
+api.infra	300	IN	A	10.11.0.24
+api.prod	300	IN	A	10.12.0.24
+api.staging	300	IN	A	10.13.0.24
+bastion	300	IN	A	10.11.0.20
