@@ -8,9 +8,13 @@ on:
     paths:
       - "zonefiles/**.zone"
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   validate-zonefiles:
-    uses: ./.github/workflows/validate-zonefiles.yaml
+    uses: ./.github/workflows/pre-commit.yaml
 
   update-dns:
     needs:
@@ -19,8 +23,11 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v6
+
+      - uses: aws-actions/configure-aws-credentials@v4
         with:
-          fetch-depth: 2
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: us-east-1
 
       - name: Install cli53
         run: |
@@ -43,6 +50,3 @@ jobs:
             $HOME/bin/cli53 import --replace -n --file $zonefile $zone &&
               $HOME/bin/cli53 import --replace --file $zonefile $zone
           done
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
