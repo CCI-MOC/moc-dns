@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'zonefiles/**.zone'
+      - "zonefiles/**.zone"
 
 jobs:
   validate-zonefiles:
@@ -26,10 +26,10 @@ jobs:
         run: |
           set -e
           mkdir -p $HOME/bin
-          curl -Lsf -o $HOME/bin/cli53 https://github.com/barnybug/cli53/releases/download/$CLI53_RELEASE/cli53-linux-amd64
+          curl -LSsf -o $HOME/bin/cli53 https://github.com/barnybug/cli53/releases/download/$CLI53_RELEASE/cli53-linux-amd64
           chmod 755 $HOME/bin/cli53
         env:
-          CLI53_RELEASE: "0.8.22"
+          CLI53_RELEASE: "v0.9.0"
 
       - name: Update zones
         run: |
