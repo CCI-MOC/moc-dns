@@ -12,6 +12,8 @@ api-int.london.int.massopen.cloud.	      300 IN A		128.31.20.161
 api.naved.int.massopen.cloud.		      300 IN A		172.16.96.6
 *.apps.naved.int.massopen.cloud.	      300 IN A		172.16.96.6
 gw.oac.int.massopen.cloud.		      300 IN A		10.20.2.28
+api.infra.oac.int.massopen.cloud.	      300 IN A		10.20.3.11
+*.apps.infra.oac.int.massopen.cloud.	      300 IN A		10.20.3.12
 rgw-j-01.int.massopen.cloud.		      300 IN A		192.168.28.198
 rgw-j-02.int.massopen.cloud.		      300 IN A		192.168.28.200
 rgw-j-vip.int.massopen.cloud.		      300 IN A		192.168.28.199
