@@ -3,11 +3,6 @@ int.massopen.cloud.			      172800 IN	NS	ns-1864.awsdns-41.co.uk.
 int.massopen.cloud.			      172800 IN	NS	ns-150.awsdns-18.com.
 int.massopen.cloud.			      172800 IN	NS	ns-1075.awsdns-06.org.
 int.massopen.cloud.			      172800 IN	NS	ns-684.awsdns-21.net.
-api.oac-prod.oac.int.massopen.cloud.int.massopen.cloud.	300 IN CNAME default-router.apps.infra.oac.int.massopen.cloud.
-api-int.oac-prod.oac.int.massopen.cloud.int.massopen.cloud. 300	IN CNAME default-router.apps.infra.oac.int.massopen.cloud.
-*.apps.oac-prod.oac.int.massopen.cloud.int.massopen.cloud. 300 IN A 10.20.6.150
-*.apps.oac-prod.oac.int.massopen.cloud.int.massopen.cloud. 300 IN A 10.20.6.251
-*.apps.oac-prod.oac.int.massopen.cloud.int.massopen.cloud. 300 IN A 10.20.6.100
 api.demo1.int.massopen.cloud.		      300 IN A		128.31.20.188
 api-int.demo1.int.massopen.cloud.	      300 IN A		128.31.20.188
 *.apps.demo1.int.massopen.cloud.	      300 IN A		128.31.20.146
@@ -19,6 +14,11 @@ api.naved.int.massopen.cloud.		      300 IN A		172.16.96.6
 gw.oac.int.massopen.cloud.		      300 IN A		10.20.2.28
 api.infra.oac.int.massopen.cloud.	      300 IN A		10.20.3.11
 *.apps.infra.oac.int.massopen.cloud.	      300 IN A		10.20.3.12
+api-oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	10.20.2.110
+api-oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	10.20.2.206
+api-oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	10.20.2.141
+api.oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN CNAME	api-oac-prod.apps.infra.oac.int.massopen.cloud.
+*.apps.oac-prod.apps.infra.oac.int.massopen.cloud. 300 IN A	10.20.7.10
 rgw-j-01.int.massopen.cloud.		      300 IN A		192.168.28.198
 rgw-j-02.int.massopen.cloud.		      300 IN A		192.168.28.200
 rgw-j-vip.int.massopen.cloud.		      300 IN A		192.168.28.199
