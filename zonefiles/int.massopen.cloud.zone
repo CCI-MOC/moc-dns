@@ -14,11 +14,12 @@ api.naved.int.massopen.cloud.		      300 IN A		172.16.96.6
 gw.oac.int.massopen.cloud.		      300 IN A		10.20.2.28
 api.infra.oac.int.massopen.cloud.	      300 IN A		10.20.3.11
 *.apps.infra.oac.int.massopen.cloud.	      300 IN A		10.20.3.12
-api-oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	10.20.2.110
-api-oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	10.20.2.206
-api-oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	10.20.2.141
-api.oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN CNAME	api-oac-prod.apps.infra.oac.int.massopen.cloud.
-*.apps.oac-prod.apps.infra.oac.int.massopen.cloud. 300 IN A	10.20.7.10
 rgw-j-01.int.massopen.cloud.		      300 IN A		192.168.28.198
 rgw-j-02.int.massopen.cloud.		      300 IN A		192.168.28.200
 rgw-j-vip.int.massopen.cloud.		      300 IN A		192.168.28.199
+oauth-oac-prod.apps.infra.oac.int.massopen.cloud.int.massopen.cloud. 300 IN A 129.10.5.101
+api-oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	10.20.2.110
+api-oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	10.20.2.206
+api-oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	10.20.2.141
+api.oac-prod.apps.infra.oac.int.massopen.cloud.	300 IN A	129.10.5.101
+*.apps.oac-prod.apps.infra.oac.int.massopen.cloud. 300 IN A	129.10.5.102
