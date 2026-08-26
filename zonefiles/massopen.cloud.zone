@@ -17,9 +17,6 @@ omgxgrk4rdgabvhlxyzlefzmvrhotl64._domainkey.massopen.cloud. 120	IN CNAME omgxgrk
 u4d5tr5223tokbd7bqcdfqruxq6c32km._domainkey.massopen.cloud. 120	IN CNAME u4d5tr5223tokbd7bqcdfqruxq6c32km.dkim.amazonses.com.
 wdfjjm7uhyxlae3lhufiolmoyv3opiih._domainkey.massopen.cloud. 120	IN CNAME wdfjjm7uhyxlae3lhufiolmoyv3opiih.dkim.amazonses.com.
 _github-challenge-cci-moc.massopen.cloud.     120 IN TXT	"68ee7d8f37"
-acme.massopen.cloud.			      86400 IN NS	ns-381.awsdns-47.com.
-acme.massopen.cloud.			      86400 IN NS	ns-1367.awsdns-42.org.
-acme.massopen.cloud.			      86400 IN NS	ns-1921.awsdns-48.co.uk.
 arm-server-rh.massopen.cloud.		      120 IN A		128.197.248.11
 autoconfig.massopen.cloud.		      120 IN CNAME	mail.massopen.cloud.
 autodiscover.massopen.cloud.		      120 IN CNAME	mail.massopen.cloud.
@@ -28,7 +25,6 @@ box.massopen.cloud.			      86400 IN NS	ns-798.awsdns-35.net.
 box.massopen.cloud.			      86400 IN NS	ns-1089.awsdns-08.org.
 box.massopen.cloud.			      86400 IN NS	ns-1859.awsdns-40.co.uk.
 ccds-intel-rh.massopen.cloud.		      120 IN A		128.197.248.10
-dns.massopen.cloud.			      120 IN A		129.10.5.119
 doc.massopen.cloud.			      120 IN CNAME	readthedocs.io.
 docs.massopen.cloud.			      120 IN CNAME	readthedocs.io.
 document.massopen.cloud.		      120 IN CNAME	readthedocs.io.
@@ -41,24 +37,12 @@ esi-controller-1.massopen.cloud.	      120 IN A		129.10.5.142
 esi-controller-2.massopen.cloud.	      120 IN A		129.10.5.143
 esi-leap.massopen.cloud.		      300 IN A		129.10.5.142
 esi-undercloud.massopen.cloud.		      120 IN A		129.10.5.140
-esivirt.massopen.cloud.			      120 IN A		129.10.5.145
-freeipa.massopen.cloud.			      120 IN A		129.10.5.116
-help.massopen.cloud.			      120 IN CNAME	osticket.massopen.cloud.
 _dmarc.help.massopen.cloud.		      120 IN TXT	"v=DMARC1; p=none; sp=reject; adkim=s; aspf=s; rua=mailto:alters@lists.massopen.cloud"
-i.massopen.cloud.			      120 IN A		129.10.5.105
-info.massopen.cloud.			      120 IN CNAME	massopen.cloud.
-freeipa.infra.massopen.cloud.		      120 IN A		129.10.5.116
 int.massopen.cloud.			      86400 IN NS	ns-150.awsdns-18.com.
 int.massopen.cloud.			      86400 IN NS	ns-684.awsdns-21.net.
 int.massopen.cloud.			      86400 IN NS	ns-1075.awsdns-06.org.
 int.massopen.cloud.			      86400 IN NS	ns-1864.awsdns-41.co.uk.
-kumo.massopen.cloud.			      120 IN A		129.10.5.139
 lenovo.massopen.cloud.			      120 IN A		129.10.5.118
-lists.massopen.cloud.			      120 IN A		178.156.145.227
-lists.massopen.cloud.			      120 IN MX		10 ash.mailmanlists.us.
-lists.massopen.cloud.			      120 IN TXT	"v=spf1 ip4:178.156.145.227 ~all"
-_dmarc.lists.massopen.cloud.		      120 IN TXT	"v=DMARC1; p=quarantine; adkim=s; aspf=r; rf=afrf; pct=100; rua=mailto:dmarc@mailmanlists.net"
-mail._domainkey.lists.massopen.cloud.	      120 IN TXT	" v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDiqDWznN/K5yz1Pkm6Q4Rzdu7imyX4+SVmNTkCAXOruO1QhYTD+rpQyYmJHctiXxNhWk6IZ1AO5u8SEROjoelffzOPD8ZoUg0X9G3sFr2YgVulOTgdk59wDmrgJjHuBdn6nBlnh2EORz1L0ivfcT3fj7n9js0Pq7O3wdfusuQK0wIDAQAB "
 mail.massopen.cloud.			      120 IN A		34.204.145.35
 mailman.massopen.cloud.			      0	IN CNAME	mail.massopen.cloud.
 moc-esi.massopen.cloud.			      120 IN A		129.10.5.153
@@ -66,35 +50,20 @@ _acme-challenge.moc-esi.massopen.cloud.	      120 IN TXT	"wFjvejnIn3UfWRhm4WDQJz
 moc-fw-1.massopen.cloud.		      120 IN A		129.10.5.5
 api.moc-infra.massopen.cloud.		      120 IN A		172.16.0.100
 *.apps.moc-infra.massopen.cloud.	      120 IN A		172.16.0.101
-naved-test.massopen.cloud.		      300 IN A		129.10.5.105
 fw.net.massopen.cloud.			      120 IN A		129.10.5.1
 fw1.net.massopen.cloud.			      120 IN A		129.10.5.2
 fw2.net.massopen.cloud.			      120 IN A		129.10.5.3
-ns1.massopen.cloud.			      120 IN A		34.204.145.35
-ns2.massopen.cloud.			      120 IN A		129.10.5.41
 ntp.massopen.cloud.			      300 IN CNAME	time.massopen.cloud.
 ocp.massopen.cloud.			      300 IN NS		ns-505.awsdns-63.com.
 ocp.massopen.cloud.			      300 IN NS		ns-578.awsdns-08.net.
 ocp.massopen.cloud.			      300 IN NS		ns-1303.awsdns-34.org.
 ocp.massopen.cloud.			      300 IN NS		ns-1833.awsdns-37.co.uk.
-oct4-7.massopen.cloud.			      120 IN A		129.10.5.154
-okdctrl.massopen.cloud.			      120 IN A		128.31.20.235
-okd.on.massopen.cloud.			      86400 IN NS	okdctrl.massopen.cloud.
 osticket.massopen.cloud.		      120 IN CNAME	dl.supportsystem.com.
-ov1.massopen.cloud.			      120 IN A		129.10.5.101
-ov2.massopen.cloud.			      120 IN A		129.10.5.102
-ov3.massopen.cloud.			      120 IN A		129.10.5.103
-ovirt.massopen.cloud.			      120 IN A		129.10.5.104
-prom.promtest.massopen.cloud.		      0	IN CNAME	promtest.massopen.cloud.
-rceph-bastion.massopen.cloud.		      120 IN A		129.10.5.155
 spf.massopen.cloud.			      120 IN TXT	"v=spf1 ip4:209.85.192.0/19 ip4:34.204.145.35 ip4:104.47.32.0/19 ip6:2a01:110::/31 ip4:128.197.228.0/24 ip4:18.7.68.32/29 ip4:216.32.180.0/22 ip4:209.85.128.0/17 ip4:40.107.64.0/19 ip4:129.10.116.0/24 include:spfa.massopen.cloud ~all"
 spfa.massopen.cloud.			      120 IN TXT	"v=spf1 ip4:207.46.0.0/16 ip4:128.30.0.0/16 ip4:18.9.25.12/30 ip4:216.71.128.0/19 ip4:68.232.128.0/19 ip6:2607:f8b0:4864:20::329 ip4:18.4.70.0/24 ip6:2a01:111:f400:fe49::700 ip6:2607:4000:200:14::34 include:spfb.massopen.cloud ~all"
 spfb.massopen.cloud.			      120 IN TXT	"v=spf1 ip4:104.47.64.0/19 ip4:52.100.128.0/19 ip4:173.255.194.5 ip4:104.237.140.188 ip4:45.79.40.207 ip4:104.237.140.188 ip4:45.33.113.95 ip4:50.116.27.233 ip6:2607:f8b0:4864:20::d32 ~all"
 sso.massopen.cloud.			      300 IN CNAME	k8s-keycloak-keycloak-da7c2b43d9-1362855976.us-east-1.elb.amazonaws.com.
 _3e553fea7e6e1eccc56ab0a502c8fb2e.sso.massopen.cloud. 300 IN CNAME _a85b9d125104a75711763e4faeed305a.jkddzztszm.acm-validations.aws.
-staging16.massopen.cloud.		      120 IN A		35.209.35.11
-www.staging16.massopen.cloud.		      120 IN CNAME	staging16.massopen.cloud.
-staging3.massopen.cloud.		      120 IN A		35.209.35.11
 status.massopen.cloud.			      120 IN CNAME	cci-moc.github.io.
 storage.massopen.cloud.			      300 IN A		172.31.0.53
 support.massopen.cloud.			      0	IN CNAME	dl.supportsystem.com.
@@ -104,7 +73,4 @@ svc.massopen.cloud.			      86400 IN NS	ns-1326.awsdns-37.org.
 svc.massopen.cloud.			      86400 IN NS	ns-1870.awsdns-41.co.uk.
 techsquare.massopen.cloud.		      120 IN A		129.10.5.118
 time.massopen.cloud.			      300 IN A		129.10.5.1
-tld.massopen.cloud.			      120 IN A		129.10.5.115
-undercloud.massopen.cloud.		      120 IN A		129.10.5.149
 www.massopen.cloud.			      0	IN CNAME	massopen.cloud.
-zabbix.massopen.cloud.			      120 IN A		129.10.5.132
