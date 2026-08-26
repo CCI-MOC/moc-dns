@@ -13,7 +13,10 @@ for zf in "$@"; do
     exit 1
   fi
 
-  named-checkzone -D -o "$tmpfile" "$zone" "$zonefile"
+  if ! named-checkzone -D -o "$tmpfile" "$zone" "$zonefile"; then
+    echo "ERROR: named-checkzone failed" >&2
+    exit 1
+  fi
 
   # Ignore differences that are caused only by sort order
   # because apparently different builds of named-checkzone
