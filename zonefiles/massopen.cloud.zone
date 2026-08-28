@@ -54,6 +54,10 @@ fw.net.massopen.cloud.			      120 IN A		129.10.5.1
 fw1.net.massopen.cloud.			      120 IN A		129.10.5.2
 fw2.net.massopen.cloud.			      120 IN A		129.10.5.3
 ntp.massopen.cloud.			      300 IN CNAME	time.massopen.cloud.
+hcp.oac.massopen.cloud.			      172800 IN	NS	ns-235.awsdns-29.com.
+hcp.oac.massopen.cloud.			      172800 IN	NS	ns-1849.awsdns-39.co.uk.
+hcp.oac.massopen.cloud.			      172800 IN	NS	ns-685.awsdns-21.net.
+hcp.oac.massopen.cloud.			      172800 IN	NS	ns-1482.awsdns-57.org.
 ocp.massopen.cloud.			      300 IN NS		ns-505.awsdns-63.com.
 ocp.massopen.cloud.			      300 IN NS		ns-578.awsdns-08.net.
 ocp.massopen.cloud.			      300 IN NS		ns-1303.awsdns-34.org.
