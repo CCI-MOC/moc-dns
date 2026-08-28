@@ -17,13 +17,11 @@ omgxgrk4rdgabvhlxyzlefzmvrhotl64._domainkey.massopen.cloud. 120	IN CNAME omgxgrk
 u4d5tr5223tokbd7bqcdfqruxq6c32km._domainkey.massopen.cloud. 120	IN CNAME u4d5tr5223tokbd7bqcdfqruxq6c32km.dkim.amazonses.com.
 wdfjjm7uhyxlae3lhufiolmoyv3opiih._domainkey.massopen.cloud. 120	IN CNAME wdfjjm7uhyxlae3lhufiolmoyv3opiih.dkim.amazonses.com.
 _github-challenge-cci-moc.massopen.cloud.     120 IN TXT	"68ee7d8f37"
+allocations.massopen.cloud.		      300 IN CNAME	k8s-coldfron-coldfron-8b44b28a34-1869489527.us-east-1.elb.amazonaws.com.
+_931d066325a5ca4a710559287f0a8114.allocations.massopen.cloud. 300 IN CNAME _30f190c45c09f13c3f98988bf21793fe.jkddzztszm.acm-validations.aws.
 arm-server-rh.massopen.cloud.		      120 IN A		128.197.248.11
 autoconfig.massopen.cloud.		      120 IN CNAME	mail.massopen.cloud.
 autodiscover.massopen.cloud.		      120 IN CNAME	mail.massopen.cloud.
-box.massopen.cloud.			      86400 IN NS	ns-17.awsdns-02.com.
-box.massopen.cloud.			      86400 IN NS	ns-798.awsdns-35.net.
-box.massopen.cloud.			      86400 IN NS	ns-1089.awsdns-08.org.
-box.massopen.cloud.			      86400 IN NS	ns-1859.awsdns-40.co.uk.
 ccds-intel-rh.massopen.cloud.		      120 IN A		128.197.248.10
 doc.massopen.cloud.			      120 IN CNAME	readthedocs.io.
 docs.massopen.cloud.			      120 IN CNAME	readthedocs.io.
@@ -68,15 +66,9 @@ spfa.massopen.cloud.			      120 IN TXT	"v=spf1 ip4:207.46.0.0/16 ip4:128.30.0.0
 spfb.massopen.cloud.			      120 IN TXT	"v=spf1 ip4:104.47.64.0/19 ip4:52.100.128.0/19 ip4:173.255.194.5 ip4:45.79.40.207 ip4:104.237.140.188 ip4:45.33.113.95 ip4:50.116.27.233 ip6:2607:f8b0:4864:20::d32 ~all"
 sso.massopen.cloud.			      300 IN CNAME	k8s-keycloak-keycloak-da7c2b43d9-1362855976.us-east-1.elb.amazonaws.com.
 _3e553fea7e6e1eccc56ab0a502c8fb2e.sso.massopen.cloud. 300 IN CNAME _a85b9d125104a75711763e4faeed305a.jkddzztszm.acm-validations.aws.
-allocations.massopen.cloud.       300 IN CNAME  k8s-coldfron-coldfron-8b44b28a34-1869489527.us-east-1.elb.amazonaws.com.
-_931d066325a5ca4a710559287f0a8114.allocations.massopen.cloud. 300 IN CNAME _30f190c45c09f13c3f98988bf21793fe.jkddzztszm.acm-validations.aws.
 status.massopen.cloud.			      120 IN CNAME	cci-moc.github.io.
 storage.massopen.cloud.			      300 IN A		172.31.0.53
 support.massopen.cloud.			      0	IN CNAME	dl.supportsystem.com.
-svc.massopen.cloud.			      86400 IN NS	ns-36.awsdns-04.com.
-svc.massopen.cloud.			      86400 IN NS	ns-553.awsdns-05.net.
-svc.massopen.cloud.			      86400 IN NS	ns-1326.awsdns-37.org.
-svc.massopen.cloud.			      86400 IN NS	ns-1870.awsdns-41.co.uk.
 techsquare.massopen.cloud.		      120 IN A		129.10.5.118
 time.massopen.cloud.			      300 IN A		129.10.5.1
 www.massopen.cloud.			      0	IN CNAME	massopen.cloud.
