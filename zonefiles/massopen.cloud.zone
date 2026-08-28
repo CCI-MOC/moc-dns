@@ -64,6 +64,8 @@ spfa.massopen.cloud.			      120 IN TXT	"v=spf1 ip4:207.46.0.0/16 ip4:128.30.0.0
 spfb.massopen.cloud.			      120 IN TXT	"v=spf1 ip4:104.47.64.0/19 ip4:52.100.128.0/19 ip4:173.255.194.5 ip4:45.79.40.207 ip4:104.237.140.188 ip4:45.33.113.95 ip4:50.116.27.233 ip6:2607:f8b0:4864:20::d32 ~all"
 sso.massopen.cloud.			      300 IN CNAME	k8s-keycloak-keycloak-da7c2b43d9-1362855976.us-east-1.elb.amazonaws.com.
 _3e553fea7e6e1eccc56ab0a502c8fb2e.sso.massopen.cloud. 300 IN CNAME _a85b9d125104a75711763e4faeed305a.jkddzztszm.acm-validations.aws.
+allocations.massopen.cloud.       300 IN CNAME  k8s-coldfron-coldfron-8b44b28a34-1869489527.us-east-1.elb.amazonaws.com.
+_931d066325a5ca4a710559287f0a8114.allocations.massopen.cloud. 300 IN CNAME _30f190c45c09f13c3f98988bf21793fe.jkddzztszm.acm-validations.aws.
 status.massopen.cloud.			      120 IN CNAME	cci-moc.github.io.
 storage.massopen.cloud.			      300 IN A		172.31.0.53
 support.massopen.cloud.			      0	IN CNAME	dl.supportsystem.com.
