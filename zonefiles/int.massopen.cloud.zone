@@ -6,5 +6,13 @@ int.massopen.cloud.			      172800 IN	NS	ns-684.awsdns-21.net.
 api.naved.int.massopen.cloud.		      300 IN A		172.16.96.6
 *.apps.naved.int.massopen.cloud.	      300 IN A		172.16.96.6
 gw.oac.int.massopen.cloud.		      300 IN A		10.20.2.28
+hcp.oac.int.massopen.cloud.		      172800 IN	NS	ns-1262.awsdns-29.org.
+hcp.oac.int.massopen.cloud.		      172800 IN	NS	ns-2018.awsdns-60.co.uk.
+hcp.oac.int.massopen.cloud.		      172800 IN	NS	ns-159.awsdns-19.com.
+hcp.oac.int.massopen.cloud.		      172800 IN	NS	ns-642.awsdns-16.net.
+hcp-int.oac.int.massopen.cloud.		      172800 IN	NS	ns-998.awsdns-60.net.
+hcp-int.oac.int.massopen.cloud.		      172800 IN	NS	ns-1756.awsdns-27.co.uk.
+hcp-int.oac.int.massopen.cloud.		      172800 IN	NS	ns-444.awsdns-55.com.
+hcp-int.oac.int.massopen.cloud.		      172800 IN	NS	ns-1377.awsdns-44.org.
 api.infra.oac.int.massopen.cloud.	      300 IN A		10.20.3.11
 *.apps.infra.oac.int.massopen.cloud.	      300 IN A		10.20.3.12
