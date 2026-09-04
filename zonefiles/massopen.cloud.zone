@@ -16,6 +16,9 @@ default._domainkey.massopen.cloud.	      120 IN TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSq
 omgxgrk4rdgabvhlxyzlefzmvrhotl64._domainkey.massopen.cloud. 120	IN CNAME omgxgrk4rdgabvhlxyzlefzmvrhotl64.dkim.amazonses.com.
 u4d5tr5223tokbd7bqcdfqruxq6c32km._domainkey.massopen.cloud. 120	IN CNAME u4d5tr5223tokbd7bqcdfqruxq6c32km.dkim.amazonses.com.
 wdfjjm7uhyxlae3lhufiolmoyv3opiih._domainkey.massopen.cloud. 120	IN CNAME wdfjjm7uhyxlae3lhufiolmoyv3opiih.dkim.amazonses.com.
+py2rkvmm7mb5evu6ikqgzwbjgznyl3o7._domainkey.massopen.cloud. 1800 IN CNAME py2rkvmm7mb5evu6ikqgzwbjgznyl3o7.dkim.amazonses.com.
+ava226aomreb6v2ox2xdundv4xuom6n7._domainkey.massopen.cloud. 1800 IN CNAME ava226aomreb6v2ox2xdundv4xuom6n7.dkim.amazonses.com.
+y73ejdrlz3nctyaqz243ehxzcgvm4kmr._domainkey.massopen.cloud. 1800 IN CNAME y73ejdrlz3nctyaqz243ehxzcgvm4kmr.dkim.amazonses.com.
 _github-challenge-cci-moc.massopen.cloud.     120 IN TXT	"68ee7d8f37"
 allocations.massopen.cloud.		      300 IN CNAME	k8s-coldfron-coldfron-8b44b28a34-1869489527.us-east-1.elb.amazonaws.com.
 _931d066325a5ca4a710559287f0a8114.allocations.massopen.cloud. 300 IN CNAME _30f190c45c09f13c3f98988bf21793fe.jkddzztszm.acm-validations.aws.
