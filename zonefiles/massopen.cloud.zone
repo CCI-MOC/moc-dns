@@ -11,7 +11,7 @@ massopen.cloud.				      120 IN TXT	"v=spf1 +a +mx include:massopen.cloud.spf.au
 massopen.cloud.				      120 IN CAA	0 issue "amazon.com"
 massopen.cloud.				      120 IN CAA	0 issue "godaddy.com"
 massopen.cloud.				      120 IN CAA	0 issue "letsencrypt.org"
-_dmarc.massopen.cloud.			      120 IN TXT	"v=DMARC1; p=reject; sp=reject; rua=mailto:ops@lists.massopen.cloud; ruf=mailto:ops@lists.massopen.cloud; rf=afrf; pct=100; ri=86400"
+_dmarc.massopen.cloud.			      120 IN TXT	"v=DMARC1; p=reject; sp=reject; rua=mailto:contact@massopen.cloud; ruf=mailto:contact@massopen.cloud; rf=afrf; pct=100; ri=86400"
 default._domainkey.massopen.cloud.	      120 IN TXT	"v=DKIM1;k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxdZUMH3W6AQVy5rTJZ1z0tsPgrVXXx+UhNgG3dn7zsqMGEtvCDFOL50mvWNCvJohGkdbgbYAnR41xlVLah6E9Xi4BqnngVcjueUUG1O3i6TuEUfs+wCn2Yd58RPI6v15B9mgpudRAF+En6FH28jZV82r90VlQqrg8nR6OUleWtwIDAQAB"
 omgxgrk4rdgabvhlxyzlefzmvrhotl64._domainkey.massopen.cloud. 120	IN CNAME omgxgrk4rdgabvhlxyzlefzmvrhotl64.dkim.amazonses.com.
 u4d5tr5223tokbd7bqcdfqruxq6c32km._domainkey.massopen.cloud. 120	IN CNAME u4d5tr5223tokbd7bqcdfqruxq6c32km.dkim.amazonses.com.
@@ -38,7 +38,7 @@ esi-controller-1.massopen.cloud.	      120 IN A		129.10.5.142
 esi-controller-2.massopen.cloud.	      120 IN A		129.10.5.143
 esi-leap.massopen.cloud.		      300 IN A		129.10.5.142
 esi-undercloud.massopen.cloud.		      120 IN A		129.10.5.140
-_dmarc.help.massopen.cloud.		      120 IN TXT	"v=DMARC1; p=none; sp=reject; adkim=s; aspf=s; rua=mailto:alters@lists.massopen.cloud"
+_dmarc.help.massopen.cloud.		      120 IN TXT	"v=DMARC1; p=none; sp=reject; adkim=s; aspf=s; rua=mailto:contact@massopen.cloud"
 int.massopen.cloud.			      86400 IN NS	ns-150.awsdns-18.com.
 int.massopen.cloud.			      86400 IN NS	ns-684.awsdns-21.net.
 int.massopen.cloud.			      86400 IN NS	ns-1075.awsdns-06.org.
