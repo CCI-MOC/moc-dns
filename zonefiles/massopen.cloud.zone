@@ -7,7 +7,7 @@ massopen.cloud.				      120 IN A		35.212.83.123
 massopen.cloud.				      300 IN MX		10 mx10.antispam.mailspamprotection.com.
 massopen.cloud.				      300 IN MX		20 mx20.antispam.mailspamprotection.com.
 massopen.cloud.				      300 IN MX		30 mx30.antispam.mailspamprotection.com.
-massopen.cloud.				      120 IN TXT	"v=spf1 +a +mx include:massopen.cloud.spf.auto.dnssmarthost.net ~all"
+massopen.cloud.				      120 IN TXT	"v=spf1 +a +mx include:massopen.cloud.spf.auto.dnssmarthost.net include:spf.massopen.cloud ~all"
 massopen.cloud.				      120 IN CAA	0 issue "amazon.com"
 massopen.cloud.				      120 IN CAA	0 issue "godaddy.com"
 massopen.cloud.				      120 IN CAA	0 issue "letsencrypt.org"
