@@ -57,6 +57,7 @@ hcp.oac.massopen.cloud.			      172800 IN	NS	ns-235.awsdns-29.com.
 hcp.oac.massopen.cloud.			      172800 IN	NS	ns-1849.awsdns-39.co.uk.
 hcp.oac.massopen.cloud.			      172800 IN	NS	ns-685.awsdns-21.net.
 hcp.oac.massopen.cloud.			      172800 IN	NS	ns-1482.awsdns-57.org.
+s3.oac-prod-workload0.hcp.oac.massopen.cloud. 300 IN A		172.31.0.53
 hcp-int.oac.massopen.cloud.		      172800 IN	NS	ns-1635.awsdns-12.co.uk.
 hcp-int.oac.massopen.cloud.		      172800 IN	NS	ns-165.awsdns-20.com.
 hcp-int.oac.massopen.cloud.		      172800 IN	NS	ns-588.awsdns-09.net.

@@ -6,10 +6,11 @@ ocp.massopen.cloud.			      172800 IN	NS	ns-1833.awsdns-37.co.uk.
 bastion.ocp.massopen.cloud.		      300 IN A		10.11.0.20
 api.infra.ocp.massopen.cloud.		      300 IN A		10.11.0.24
 *.apps.infra.ocp.massopen.cloud.	      300 IN A		10.11.0.25
+api.infra.oac.ocp.massopen.cloud.	      300 IN A		10.20.9.11
+api-int.infra.oac.ocp.massopen.cloud.	      300 IN A		10.20.9.11
+*.apps.infra.oac.ocp.massopen.cloud.	      300 IN A		10.20.9.12
+s3.infra.oac.ocp.massopen.cloud.	      300 IN A		172.30.0.53
 api.prod.ocp.massopen.cloud.		      300 IN A		10.12.0.24
 *.apps.prod.ocp.massopen.cloud.		      300 IN A		10.12.0.25
 api.staging.ocp.massopen.cloud.		      300 IN A		10.13.0.24
 *.apps.staging.ocp.massopen.cloud.	      300 IN A		10.13.0.25
-api.infra.oac.ocp.massopen.cloud.	      300 IN A		10.20.9.11
-api-int.infra.oac.ocp.massopen.cloud.	      300 IN A		10.20.9.11
-*.apps.infra.oac.ocp.massopen.cloud.	      300 IN A		10.20.9.12
