@@ -14,10 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Install bind-utils
+      - name: Install ldnsutils
         run: |
           sudo apt-get update
-          sudo apt-get -y install bind9-utils
+          sudo apt-get -y install ldnsutils
 
       - uses: pre-commit/action@v3.0.1
         with:
