@@ -53,6 +53,7 @@ fw1.net.massopen.cloud.	120	IN	A	129.10.5.2
 fw2.net.massopen.cloud.	120	IN	A	129.10.5.3
 ntp.massopen.cloud.	300	IN	CNAME	time.massopen.cloud.
 docs.oac.massopen.cloud.	0	IN	CNAME	cci-moc.github.io.
+ops-docs.massopen.cloud.	0	IN	CNAME	cci-moc.github.io.
 hcp.oac.massopen.cloud.	172800	IN	NS	ns-235.awsdns-29.com.
 hcp.oac.massopen.cloud.	172800	IN	NS	ns-1849.awsdns-39.co.uk.
 hcp.oac.massopen.cloud.	172800	IN	NS	ns-685.awsdns-21.net.
