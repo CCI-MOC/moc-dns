@@ -14,6 +14,10 @@ hcp-int.oac.int.massopen.cloud.	172800	IN	NS	ns-998.awsdns-60.net.
 hcp-int.oac.int.massopen.cloud.	172800	IN	NS	ns-1756.awsdns-27.co.uk.
 hcp-int.oac.int.massopen.cloud.	172800	IN	NS	ns-444.awsdns-55.com.
 hcp-int.oac.int.massopen.cloud.	172800	IN	NS	ns-1377.awsdns-44.org.
+nist.int.massopen.cloud.	172800	IN	NS	ns-1000.awsdns-61.net.
+nist.int.massopen.cloud.	172800	IN	NS	ns-1240.awsdns-27.org.
+nist.int.massopen.cloud.	172800	IN	NS	ns-1632.awsdns-12.co.uk.
+nist.int.massopen.cloud.	172800	IN	NS	ns-455.awsdns-56.com.
 api.infra.oac.int.massopen.cloud.	300	IN	A	10.20.3.11
 *.apps.infra.oac.int.massopen.cloud.	300	IN	A	10.20.3.12
 s3.infra.oac.int.massopen.cloud.	300	IN	A	172.30.0.53
@@ -21,6 +25,3 @@ s3.oac-dev-workload0.hcp.oac.int.massopen.cloud.	300	IN	A	172.31.0.53
 s3.oac-dev-workload1.hcp.oac.int.massopen.cloud.	300	IN	A	172.31.0.53
 api.jetty.oac.int.massopen.cloud.	300	IN	A	10.20.17.10
 *.apps.jetty.oac.int.massopen.cloud.	300	IN	A	10.20.17.11
-api.nist-dev-infra.nist.int.massopen.cloud.	300	IN	A	10.20.19.11
-api-int.nist-dev-infra.nist.int.massopen.cloud.	300	IN	A	10.20.19.11
-*.apps.nist-dev-infra.nist.int.massopen.cloud.	300	IN	A	10.20.19.12
