@@ -27,3 +27,6 @@ api.jetty.oac.int.massopen.cloud.	300	IN	A	10.20.17.10
 *.apps.jetty.oac.int.massopen.cloud.	300	IN	A	10.20.17.11
 api.dizzy.int.massopen.cloud.	300	IN	A	10.20.23.11
 *.apps.dizzy.int.massopen.cloud.	300	IN	A	10.20.23.12
+api.bu-ist-demo.int.massopen.cloud.	300	IN	A	10.20.27.11
+api-int.bu-ist-demo.int.massopen.cloud.	300	IN	A	10.20.27.11
+*.apps.bu-ist-demo.int.massopen.cloud.	300	IN	A	10.20.27.12
