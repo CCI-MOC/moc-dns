@@ -75,3 +75,4 @@ support.massopen.cloud.	0	IN	CNAME	dl.supportsystem.com.
 techsquare.massopen.cloud.	120	IN	A	129.10.5.118
 time.massopen.cloud.	300	IN	A	129.10.5.1
 www.massopen.cloud.	0	IN	CNAME	massopen.cloud.
+gpu1.oac.massopen.cloud.	300	IN	A	129.10.5.108
